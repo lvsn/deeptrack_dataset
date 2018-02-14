@@ -22,7 +22,7 @@ def download_extract(url, output_path):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='Train DeepTrack')
+    parser = argparse.ArgumentParser(description='Download Deep 6 dof dataset')
     parser.add_argument('-o', '--output', help="Output path", action="store", default="data")
     parser.add_argument('--skip_models', help="Skip 3D model downloads", action="store_true")
     parser.add_argument('--skip_raw', help="Skip Raw training data", action="store_true")
