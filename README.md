@@ -14,6 +14,16 @@ The default path is ./data.
 ```bash
     python download.py -o ./data
 ```
+- 3dmodels contains each object models
+    - geometry.ply : vertex (meter scale), color, texture information
+    - ao.ply : per vertex ambiant occlusion intensity
+    - object.bmp : texture
+- raw_training contains training data for each objects.
+    - x.png : rgb frame id x
+    - xd.png : depth frame id x
+    - camera.json : camera intrinsics
+    - viewpoints.json : camera extrinsics (see show sequence example for an example to load them
+- sequences contains test data for each objects.
 
 ## Show sequence
 
